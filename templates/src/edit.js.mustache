@@ -1,0 +1,19 @@
+/**
+ * edit.js
+ */
+import { __ } from "@wordpress/i18n";
+import { RichText, useBlockProps } from "@wordpress/block-editor";
+
+export default function Edit({ attributes, setAttributes }) {
+    const blockProps = useBlockProps();
+    return (
+        <RichText
+            identifier="content"
+            tagName="div"
+            value={attributes.content}
+            onChange={(newContent) => setAttributes({ content: newContent })}
+            placeholder={__("I will face my fear.")}
+            {...blockProps}
+        />
+    );
+}

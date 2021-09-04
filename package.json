@@ -1,0 +1,23 @@
+{
+	"name": "mkaz-block-template",
+	"version": "0.2.0",
+	"description": "A basic block template with RichText",
+	"author": "Marcus Kazmiercak",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"create block",
+		"block template"
+	],
+	"homepage": "https://github.com/mkaz/mkaz-block-template",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mkaz/mkaz-block-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mkaz/mkaz-block-template/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
